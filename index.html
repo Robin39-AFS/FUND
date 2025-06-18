@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,62 +8,66 @@
     <link rel="stylesheet" href="style.css">
     <title>FUND System</title>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to the FUND System</h1>
-        <div class="box">
-            <h2>FUND Valuation : 3000 BDT.</h2>
-        </div>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Welcome to the FUND System</h1>
+            <div class="box">
+                <h2>FUND Valuation : 3000 BDT.</h2>
+            </div>
+        </header>
 
-    <section class="right">
-        <h2 class="description">AMOUNT HAVE TO RETURN</h2>
-        <ul id="ROBIN">
-            <!-- Amount OF Robin -->
-              
-        </ul>
-        <ul id="PIASH">
-            <!-- Amount OF Piash -->
-             
-        </ul>
-        <ul id="SUJON">
-            <!-- Amount OF Sujon -->
-             
-        </ul>
-    </section>
+        <section class="right">
+            <h2 class="description">AMOUNT HAVE TO RETURN</h2>
+            <ul id="ROBIN">
+                <!-- Amount OF Robin -->
 
-    <section class="left">
-        <section class="up">
-            <h2 class="up-description">COST ENTRY</h2>
-            <label for="cost-select">Select Cost:</label>
-            <select name="cost" id="cost-select">
-                <option value="ROBIN">ROBIN</option>
-                <option value="PIASH">PIASH</option>
-                <option value="SUJON">SUJON</option>
-            </select>
-            <label for="amount-input">Enter Amount:</label>
-            <input type="number" id="amount-input" placeholder="Enter amount here">
-            <button type="submit" id="add-cost">Add Cost</button>
+            </ul>
+            <ul id="PIASH">
+                <!-- Amount OF Piash -->
+
+            </ul>
+            <ul id="SUJON">
+                <!-- Amount OF Sujon -->
+
+            </ul>
         </section>
-        <section class="down">
-            <h2 class="down-description">FUND ENTRY</h2>
-            <label for="fund-select">Select Fund:</label>
-            <select name="fund" id="fund-select">
-                <option value="ROBIN">ROBIN</option>
-                <option value="PIASH">PIASH</option>
-                <option value="SUJON">SUJON</option>
-            </select>
-            <label for="fund-amount-input">Enter Amount:</label>
-            <input type="number" id="fund-amount-input" placeholder="Enter fund amount here">
-            <button type="submit" id="add-fund">Add Fund</button>
+
+        <section class="left">
+            <section class="up">
+                <h2 class="up-description">COST ENTRY</h2>
+                <label for="cost-select">Select Cost:</label>
+                <select name="cost" id="cost-select">
+                    <option value="ROBIN">ROBIN</option>
+                    <option value="PIASH">PIASH</option>
+                    <option value="SUJON">SUJON</option>
+                </select>
+                <label for="amount-input">Enter Amount:</label>
+                <input type="number" id="amount-input" placeholder="Enter amount here">
+                <button type="submit" id="add-cost">Add Cost</button>
+            </section>
+            <section class="down">
+                <h2 class="down-description">FUND ENTRY</h2>
+                <label for="fund-select">Select Fund:</label>
+                <select name="fund" id="fund-select">
+                    <option value="ROBIN">ROBIN</option>
+                    <option value="PIASH">PIASH</option>
+                    <option value="SUJON">SUJON</option>
+                </select>
+                <label for="fund-amount-input">Enter Amount:</label>
+                <input type="number" id="fund-amount-input" placeholder="Enter fund amount here">
+                <button type="submit" id="add-fund">Add Fund</button>
+            </section>
         </section>
-    </section>
-    <section class="balance">
-        <h2>Available FUND Balance</h2>
-        <div id="fund-display" class="box">
-            1500
-        </div>
-    </section>
+        <section class="balance">
+            <h2>Available FUND Balance</h2>
+            <div id="fund-display" class="box">
+                1500
+            </div>
+        </section>
+    </div>
     <script src="./script.js"></script>
 </body>
+
 </html>
